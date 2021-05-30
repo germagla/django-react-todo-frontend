@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/django-react-todo-frontend/static/css/main.6f842cef.chunk.css",
+    "main.js": "/django-react-todo-frontend/static/js/main.3d531225.chunk.js",
+    "main.js.map": "/django-react-todo-frontend/static/js/main.3d531225.chunk.js.map",
+    "runtime-main.js": "/django-react-todo-frontend/static/js/runtime-main.0ae8db65.js",
+    "runtime-main.js.map": "/django-react-todo-frontend/static/js/runtime-main.0ae8db65.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/django-react-todo-frontend/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.24aa74d5.chunk.js": "/django-react-todo-frontend/static/js/2.24aa74d5.chunk.js",
+    "static/js/2.24aa74d5.chunk.js.map": "/django-react-todo-frontend/static/js/2.24aa74d5.chunk.js.map",
+    "static/js/3.20791760.chunk.js": "/django-react-todo-frontend/static/js/3.20791760.chunk.js",
+    "static/js/3.20791760.chunk.js.map": "/django-react-todo-frontend/static/js/3.20791760.chunk.js.map",
+    "index.html": "/django-react-todo-frontend/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/django-react-todo-frontend/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.6f842cef.chunk.css.map": "/django-react-todo-frontend/static/css/main.6f842cef.chunk.css.map",
+    "static/js/2.24aa74d5.chunk.js.LICENSE.txt": "/django-react-todo-frontend/static/js/2.24aa74d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ae8db65.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.24aa74d5.chunk.js",
+    "static/css/main.6f842cef.chunk.css",
+    "static/js/main.3d531225.chunk.js"
+  ]
+}
