@@ -43,18 +43,18 @@ class App extends React.Component {
 
         if (item.id) {
             axios
-                .put(`/api/todos/${item.id}/`, item)
+                .put(`https://django-react-todo-backend.herokuapp.com/api/todos/${item.id}/`, item)
                 .then(() => this.refreshList());
             return;
         }
         axios
-            .post("/api/todos/", item)
+            .post("https://django-react-todo-backend.herokuapp.com/api/todos/", item)
             .then(() => this.refreshList());
     };
 
     handleDelete = (item) => {
         axios
-            .delete(`/api/todos/${item.id}/`)
+            .delete(`https://django-react-todo-backend.herokuapp.com/api/todos/${item.id}/`)
             .then(() => this.refreshList());
     };
 
