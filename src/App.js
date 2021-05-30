@@ -26,7 +26,7 @@ class App extends React.Component {
 
     refreshList = () => {
         axios
-            .get("https://django-react-todo-backend.herokuapp.com/api/todos/")
+            .get("https://django-react-todo-backend.herokuapp.com/api/todos")
             .then((res) => {
                 this.setState({toDoList: res.data});
                 console.log(res.data);
