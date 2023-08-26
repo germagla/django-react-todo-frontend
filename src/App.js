@@ -3,6 +3,8 @@ import React from 'react';
 import Modal from "./components/Modal";
 import axios from "axios";
 
+const backend_url = "http://ec2-13-39-139-220.eu-west-3.compute.amazonaws.com/todo-backend";
+
 
 class App extends React.Component {
     constructor(props, context) {
@@ -26,7 +28,7 @@ class App extends React.Component {
 
     refreshList = () => {
         axios
-            .get("https://django-react-todo-backend.herokuapp.com/api/todos/")
+            .get(`${backend_url}/todos/`)
             .then((res) => {
                 this.setState({toDoList: res.data});
                 console.log(res.data);
@@ -43,18 +45,18 @@ class App extends React.Component {
 
         if (item.id) {
             axios
-                .put(`https://django-react-todo-backend.herokuapp.com/api/todos/${item.id}/`, item)
+                .put(`${backend_url}/todos/${item.id}/`, item)
                 .then(() => this.refreshList());
             return;
         }
         axios
-            .post("https://django-react-todo-backend.herokuapp.com/api/todos/", item)
+            .post(`${backend_url}/todos/`, item)
             .then(() => this.refreshList());
     };
 
     handleDelete = (item) => {
         axios
-            .delete(`https://django-react-todo-backend.herokuapp.com/api/todos/${item.id}/`)
+            .delete(`${backend_url}/todos/${item.id}/`)
             .then(() => this.refreshList());
     };
 
