@@ -3,7 +3,7 @@ import React from 'react';
 import Modal from "./components/Modal";
 import axios from "axios";
 
-const backend_url = "http://ec2-13-39-139-220.eu-west-3.compute.amazonaws.com/todo-backend";
+const backend_url = "https://germagla.dev/todo-backend";
 
 
 class App extends React.Component {
