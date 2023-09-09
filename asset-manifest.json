@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/django-react-todo-frontend/static/css/main.6f842cef.chunk.css",
-    "main.js": "/django-react-todo-frontend/static/js/main.e9ef9c87.chunk.js",
-    "main.js.map": "/django-react-todo-frontend/static/js/main.e9ef9c87.chunk.js.map",
+    "main.js": "/django-react-todo-frontend/static/js/main.f17d9958.chunk.js",
+    "main.js.map": "/django-react-todo-frontend/static/js/main.f17d9958.chunk.js.map",
     "runtime-main.js": "/django-react-todo-frontend/static/js/runtime-main.0ae8db65.js",
     "runtime-main.js.map": "/django-react-todo-frontend/static/js/runtime-main.0ae8db65.js.map",
     "static/css/2.ef9168ec.chunk.css": "/django-react-todo-frontend/static/css/2.ef9168ec.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.24aa74d5.chunk.js",
     "static/css/main.6f842cef.chunk.css",
-    "static/js/main.e9ef9c87.chunk.js"
+    "static/js/main.f17d9958.chunk.js"
   ]
 }
